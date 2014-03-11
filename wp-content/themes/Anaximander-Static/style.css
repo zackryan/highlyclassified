@@ -39,7 +39,7 @@ body {
 	display: block;
 	max-width: 1040px;
 	margin: 0 auto;
-	background: #fff;
+	background: transparent;
 }
 
 #content-container {
@@ -155,12 +155,13 @@ p {
 a:link,
 a:visited {
 	color: #333;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus {
-	color: #333;
+	color: #33CC33;
+	text-decoration: none;
 }
 /* END Global Styles */
 
@@ -641,7 +642,7 @@ Main Content
 .index-meta li.theComments a:hover,
 .index-meta li a:focus,
 .index-meta li.theComments a:focus {
-	background: #3399FF;
+	background: #33CC33;
 }
 
 li.theComments span {
@@ -738,7 +739,7 @@ video {
 
 .index-title a:hover,
 .index-title a:focus {
-	text-decoration: underline;
+	
 }
 
 .index-name-date {
@@ -888,6 +889,7 @@ Index - Masonry
 	border: 1px solid #e3e3e3;
 	float: left;
 	margin: 0 20px 20px 0;
+	background-color: transparent;
 }
 
 #masonry-index .index-title {
